@@ -1,0 +1,58 @@
+.parallaxs {
+  /* width: 100vw; */
+  /* height: 100vh; */
+  /* overflow-x: hidden; */
+  /* overflow-y: auto; */
+}
+
+.parallaxLayer {
+  position: absolute;
+  
+}
+
+img {
+  display: block;
+  width: 100vw;
+  /* height: 100vh; */
+  position: relative;
+  bottom: 0;
+}
+
+.back {
+  position: fixed;
+
+}
+
+.relative {
+  position: relative;
+  /* height: 100vh; */
+  width: 100vw;
+  z-index: 10;
+}
+.cloud {
+  margin-top: 110px;
+  width: 100vw;
+  transform: scaleX(-1);
+}
+.main {
+  background-color: #2d102f;
+  width: 100vw;
+  height: 100vh;
+}
+.Heading {
+  display: grid;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+.ParallaxWrapper {
+  height: 100vh;
+  width: 100vw;
+  /* height: 1080px; */
+}
+.name {
+  font-size: 90px;
+}
+.title {
+  font-size: 40px;
+}
