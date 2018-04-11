@@ -12,10 +12,10 @@
 
 img {
   display: block;
-  width: 100vw;
+  /* width: 100vw; */
   /* height: 100vh; */
-  position: relative;
-  bottom: 0;
+  /* position: relative; */
+  /* bottom: 0; */
 }
 
 .back {
@@ -35,6 +35,9 @@ img {
   transform: scaleX(-1);
 }
 .main {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 470px 1fr;
   background-color: #2d102f;
   width: 100vw;
   height: 100vh;
@@ -56,3 +59,17 @@ img {
 .title {
   font-size: 40px;
 }
+.aboutMe {
+  height: 200px;
+  margin-left: 30px;
+  margin-bottom: 200px;
+  width: 100%;
+  color: rgb(254, 214, 190);
+}
+.aboutImage {
+  margin-top: 20px;
+  border-radius: 300px;
+  width: 80%;
+  height: 300px;
+}
+

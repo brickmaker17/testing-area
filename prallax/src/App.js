@@ -27,9 +27,8 @@ export default class App extends Component {
   componentDidMount() {
     document.addEventListener('scroll', () => {
       const isTop = window.scrollY < 260;
-      if (isTop !== this.state.isTop) {
-        this.onScroll(isTop);
-      }
+      (isTop !== this.state.isTop) ? this.onScroll(isTop) : null
+      
     });
   }
 
